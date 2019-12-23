@@ -1,0 +1,12 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+{% load staticfiles %}
+<h2>{{ title }}.</h2>
+<h3>{{ message }}</h3>
+
+<a href ="https://stihi.ru/" target="_blank"> <img src="{% static 'app/content/stihi_link.png' %}" alt="Link 1"/></a>
+<a href ="https://proza.ru/" target="_blank"> <img src="{% static 'app/content/proza_link.png' %}" alt="Link 2"/></a>
+<a href ="https://livejournal.com/" target="_blank"> <img src="{% static 'app/content/lj_link.png' %}" alt="Link 3"/></a>
+
+{% endblock %}
