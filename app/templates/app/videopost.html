@@ -1,18 +1,19 @@
 ﻿{% extends "app/layout.html" %}
 
 {% block content %}
-        <div>
-            <h1>Video-clip first</h1>
-            <VIDEO src="/media/Game.mp4" controls="controls" width="400" 
-                   height="300" poster="/media/ryslit.jpg">
-            </VIDEO>
-        </div>
-        <hr/>
-        <div>
-            <h1>Video-clip second</h1>
-            <VIDEO src="/media/SpaceZombie.mp4" controls="controls" width="400" 
-                   height="300" poster="/media/Lenin.jpg">
-            </VIDEO>
-        </div>
+    <h3>{{ message }}</h3>
+    <div>
+        <h1>Video-clip first</h1>
+        <VIDEO src="/media/Game.mp4" controls="controls" width="400" 
+               height="300" poster="/media/ryslit.jpg">
+        </VIDEO>
+    </div>
+    <hr/>
+    <div>
+        <h1>Video-clip second</h1>
+        <VIDEO src="/media/SpaceZombie.mp4" controls="controls" width="400" 
+               height="300" poster="/media/Lenin.jpg">
+        </VIDEO>
+    </div>
 
 {% endblock %}

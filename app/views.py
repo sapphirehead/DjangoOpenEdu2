@@ -122,7 +122,7 @@ def registration(request):
         request,        
         'app/registration.html',        
         {        
-            'title': 'Регистрация',
+            'title': 'Регистрация пользователя',
             'regform': regform, # передача формы в шаблон веб-страницы            
             'year':datetime.now().year,    
         }    
@@ -166,7 +166,7 @@ def blogpost(request, parametr):
             'post_1': post_1, # передача конкретной статьи в шаблон веб-страницы
             'comments': comments, # передача всех комментариев к данной статье в шаблон веб-страницы
             'form': form, # передача формы добавления комментария в шаблон веб-страницы 
-            #'year': datetime.now().year,  # with this string it's throwing exceptions    
+            'year': datetime.now().year,  # with this string it's throwing exceptions    
         }    
     )
 
@@ -189,7 +189,7 @@ def newpost(request):
         {
             'title': 'Добавить статью',
             'blogform': blogform, # putting form to web-page's template
-            #'year': datetime.now().year,# with this throwing exception
+            'year': datetime.now().year,# with this throwing exception
         }
     )
 def videopost(request):
@@ -200,7 +200,7 @@ def videopost(request):
         'app/videopost.html',
         {
             'title':'Video',
-            #'message':'Video-clip', # with this throwing exception
-            #'year':datetime.now().year,# with this throwing exception
+            'message':'Video-clip', # with this throwing exception
+            'year':datetime.now().year,# with this throwing exception
         }
     )

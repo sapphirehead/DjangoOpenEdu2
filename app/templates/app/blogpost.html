@@ -2,7 +2,7 @@
 
 {% block content %}
 
-    <h2> {{post_1.title}} </h2>
+    <h2> {{title}} </h2>
     {% if post_1.image and post_1.image.url != '/media/temp.jpg' %}
         <img src="{{ post_1.image.url }}" alt="Image" width="150" height="200"/>
     {% endif %}
