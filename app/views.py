@@ -97,7 +97,7 @@ def anketa(request):
         'app/anketa.html',
         {
             'form': form,
-            #'data': data, # with this throwing Exception
+            'data': data, # with this throwing Exception
         }
     )
 def registration(request):
@@ -189,7 +189,7 @@ def newpost(request):
         }
     )
 def videopost(request):
-    """Renders the about page."""
+    """Renders the video-page."""
     assert isinstance(request, HttpRequest)
     return render(
         request,
@@ -197,6 +197,6 @@ def videopost(request):
         {
             'title':'Video',
             'message':'Video-clip',
-            #'year':datetime.now().year,
+            'year':datetime.now().year,
         }
     )
