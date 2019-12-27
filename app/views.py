@@ -124,7 +124,7 @@ def registration(request):
         {        
             'title': 'Регистрация',
             'regform': regform, # передача формы в шаблон веб-страницы            
-            #'year':datetime.now().year,    
+            'year':datetime.now().year,    
         }    
     )
 
@@ -138,7 +138,7 @@ def blog(request):
         {        
             'title': 'Блог',        
             'posts': posts, # передача списка статей в шаблон веб-страницы
-            #'year': datetime.now().year,
+            'year': datetime.now().year,
         }
     )
 
