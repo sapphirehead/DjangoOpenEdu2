@@ -62,8 +62,8 @@ def links(request):
         'app/links.html',
         {
             'title':'Ссылки',
-            'message':'Полезные ресурсы.',
-            'year':datetime.now().year,
+            #'message':'Полезные ресурсы.',
+            #'year':datetime.now().year,
         }
     )
 
@@ -97,8 +97,9 @@ def anketa(request):
         'app/anketa.html',
         {
             'title': 'Анкета',
-            'form': form,
-            'data': data, # with this throwing Exception
+            #'form': form,
+            #'data': data, # with this throwing Exception
+            #'year':datetime.now().year,
         }
     )
 def registration(request):
@@ -123,7 +124,7 @@ def registration(request):
         {        
             'title': 'Регистрация',
             'regform': regform, # передача формы в шаблон веб-страницы            
-            'year':datetime.now().year,    
+            #'year':datetime.now().year,    
         }    
     )
 
@@ -137,7 +138,7 @@ def blog(request):
         {        
             'title': 'Блог',        
             'posts': posts, # передача списка статей в шаблон веб-страницы
-            'year': datetime.now().year,
+            #'year': datetime.now().year,
         }
     )
 
