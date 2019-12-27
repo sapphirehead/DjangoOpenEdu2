@@ -74,9 +74,6 @@
     <Folder Include="DjangoOpenEdu2\.git\refs\remotes\" />
     <Folder Include="DjangoOpenEdu2\.git\refs\remotes\origin\" />
     <Folder Include="DjangoOpenEdu2\.git\refs\tags\" />
-    <Folder Include="DjangoOpenEdu2\.vs\" />
-    <Folder Include="DjangoOpenEdu2\.vs\DjangoOpenEdu2\" />
-    <Folder Include="DjangoOpenEdu2\.vs\DjangoOpenEdu2\v16\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\templates\app\Anketa.html" />
@@ -86,7 +83,6 @@
     <Content Include="app\templates\app\newpost.html" />
     <Content Include="app\templates\app\registration.html" />
     <Content Include="app\templates\app\videopost.html" />
-    <Content Include="DjangoOpenEdu2\.gitignore" />
     <Content Include="DjangoOpenEdu2\.git\config" />
     <Content Include="DjangoOpenEdu2\.git\description" />
     <Content Include="DjangoOpenEdu2\.git\HEAD" />
@@ -113,11 +109,6 @@
     <Content Include="DjangoOpenEdu2\.git\packed-refs" />
     <Content Include="DjangoOpenEdu2\.git\refs\heads\master" />
     <Content Include="DjangoOpenEdu2\.git\refs\remotes\origin\HEAD" />
-    <Content Include="DjangoOpenEdu2\.vs\DjangoOpenEdu2\v16\.suo" />
-    <Content Include="DjangoOpenEdu2\.vs\ProjectSettings.json" />
-    <Content Include="DjangoOpenEdu2\.vs\slnx.sqlite" />
-    <Content Include="DjangoOpenEdu2\.vs\VSWorkspaceState.json" />
-    <Content Include="DjangoOpenEdu2\README.md" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
