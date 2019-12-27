@@ -62,8 +62,8 @@ def links(request):
         'app/links.html',
         {
             'title':'Ссылки',
-            #'message':'Полезные ресурсы.',
-            #'year':datetime.now().year,
+            'message':'Полезные ресурсы.',
+            'year':datetime.now().year,
         }
     )
 
@@ -97,9 +97,9 @@ def anketa(request):
         'app/anketa.html',
         {
             'title': 'Анкета',
-            #'form': form,
-            #'data': data, # with this throwing Exception
-            #'year':datetime.now().year,
+            'form': form,
+            'data': data, # with this throwing Exception
+            'year':datetime.now().year,
         }
     )
 def registration(request):
