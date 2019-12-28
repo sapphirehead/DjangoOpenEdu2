@@ -76,7 +76,7 @@
     <Folder Include="DjangoOpenEdu2\.git\refs\tags\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app\templates\app\Anketa.html" />
+    <Content Include="app\templates\app\questionnarie.html" />
     <Content Include="app\templates\app\blog.html" />
     <Content Include="app\templates\app\blogpost.html" />
     <Content Include="app\templates\app\links.html" />

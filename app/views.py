@@ -67,7 +67,7 @@ def links(request):
         }
     )
 
-def anketa(request):
+def questionnarie(request):
     """Renders the Anketa page."""
     assert isinstance(request, HttpRequest)
     data = None
@@ -94,7 +94,7 @@ def anketa(request):
         form = AnketaForm()
     return render(
         request,
-        'app/anketa.html',
+        'app/questionnarie.html',
         {
             'title': 'Анкета',
             'form': form,
