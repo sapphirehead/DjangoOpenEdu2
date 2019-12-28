@@ -8,16 +8,16 @@
         <section id="loginForm">
             <form action="." method="post" class="form-horizontal">
                 {% csrf_token %}
-                <h4>Используйте текущий аккаунт для входа.</h4>
+                <h4>Used current account for enter.</h4>
                 <hr />
                 <div class="form-group">
-                    <label for="id_username" class="col-md-2 control-label">Логин</label>
+                    <label for="id_username" class="col-md-2 control-label">Login</label>
                     <div class="col-md-10">
                         {{ form.username }}
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="id_password" class="col-md-2 control-label">Пароль</label>
+                    <label for="id_password" class="col-md-2 control-label">Password</label>
                     <div class="col-md-10">
                         {{ form.password }}
                     </div>
@@ -29,7 +29,7 @@
                     </div>
                 </div>
                 {% if form.errors %}
-                <p class="validation-summary-errors">Пожалуйста введите правильный логин и пароль.</p>
+                <p class="validation-summary-errors">Please, enter right login and password.</p>
                 {% endif %}
             </form>
         </section>
