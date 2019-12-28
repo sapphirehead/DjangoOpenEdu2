@@ -23,7 +23,7 @@ def home(request):
         request,
         'app/index.html',
         {
-            'title':'Домашняя страница',
+            'title':'Home-page',
             'year':datetime.now().year,
         }
     )
@@ -35,8 +35,8 @@ def contact(request):
         request,
         'app/contact.html',
         {
-            'title':'Контакты',
-            'message':'Мои реквизиты.',
+            'title':'Contacts',
+            'message':'My contacts',
             'year':datetime.now().year,
         }
     )
@@ -48,8 +48,8 @@ def about(request):
         request,
         'app/about.html',
         {
-            'title':'Информация',
-            'message':'Главная',
+            'title':'Information',
+            'message':'My info',
             'year':datetime.now().year,
         }
     )
@@ -61,8 +61,8 @@ def links(request):
         request,
         'app/links.html',
         {
-            'title':'Ссылки',
-            'message':'Полезные ресурсы.',
+            'title':'Links',
+            'message':'Useful resources',
             'year':datetime.now().year,
         }
     )
@@ -96,7 +96,7 @@ def questionnarie(request):
         request,
         'app/questionnarie.html',
         {
-            'title': 'Анкета',
+            'title': 'Questionnarie',
             'form': form,
             'data': data, # with this throwing Exception
             'year':datetime.now().year,
@@ -122,7 +122,7 @@ def registration(request):
         request,        
         'app/registration.html',        
         {        
-            'title': 'Регистрация пользователя',
+            'title': 'Registration',
             'regform': regform, # передача формы в шаблон веб-страницы            
             'year':datetime.now().year,    
         }    
@@ -136,7 +136,7 @@ def blog(request):
         request,        
         'app/blog.html',        
         {        
-            'title': 'Блог',        
+            'title': 'Blog',        
             'posts': posts, # передача списка статей в шаблон веб-страницы
             'year': datetime.now().year,
         }
@@ -187,7 +187,7 @@ def newpost(request):
         request,
         'app/newpost.html',
         {
-            'title': 'Добавить статью',
+            'title': 'Add an article',
             'blogform': blogform, # putting form to web-page's template
             'year': datetime.now().year,# with this throwing exception
         }
