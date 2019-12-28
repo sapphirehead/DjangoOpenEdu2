@@ -42,7 +42,7 @@ class CommentForm (forms.ModelForm):
     class Meta:    
         model = Comment # используемая модель        
         fields = ('text',) # требуется заполнить только поле text        
-        labels = {'text': "Комментарий"} # метка к полю формы text
+        labels = {'text': "Comment"} # метка к полю формы text
 
 class BlogForm (forms.ModelForm):
     class Meta:    
