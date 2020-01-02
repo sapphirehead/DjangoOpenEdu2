@@ -109,6 +109,7 @@
     <Content Include="DjangoOpenEdu2\.git\packed-refs" />
     <Content Include="DjangoOpenEdu2\.git\refs\heads\master" />
     <Content Include="DjangoOpenEdu2\.git\refs\remotes\origin\HEAD" />
+    <Content Include="favicon.ico" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
