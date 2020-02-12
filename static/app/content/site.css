@@ -27,6 +27,10 @@ h2 {
 h5 {
 	color: aqua;
 }
+.globus {
+    width: 341px; /* Ширина элемента в пикселах */
+    margin: auto; /* Выравниваем по центру */
+}
 /**/
 .ank {
 	background-color: coral;
